@@ -1,10 +1,10 @@
 # Data Introduction
-    This project will use six data: x_train.txt, x_test.txt, y_train.txt, y_test.txt, subject_train.txt and subject_test.txt, from the URI HAR Dataset.
-    features.txt contains the features from the dataset, which corresponds to each column of x_train.txt and x_test.txt.
-    activity_labels.txt contains th type of activity performed when the corresponding measurements were taken, i.e. Walking, walking upstairs, sitting,standing, laying.
+This project will use six data: `x_train.txt`, `x_test.txt`, `y_train.txt`, `y_test.txt`, `subject_train.txt` and `subject_test.txt`, from the URI HAR Dataset.
+`features.txt` contains the features from the dataset, which corresponds to each column of x_train.txt and x_test.txt.
+`activity_labels.txt` contains th type of activity performed when the corresponding measurements were taken, i.e. Walking, walking upstairs, sitting,standing, laying.
     
 # Analysis
-The R script called run_analysis.R that does the following:
+The R script called `run_analysis.R` that does the following:
 
 - Downloads the dataset if it does not already exist in the working directory
 - Uzips files and loads them into R if they don't already exist in the wd.
